@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 54753f3d0965e69468b1b7abc33f5de1
-timeCreated: 1476343471
+guid: 9b2390b8c3b26d94985d5faaed81d690
+timeCreated: 1476348116
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,15 +15,6 @@ TextureImporter:
     21300016: bear sprite_8
     21300018: bear sprite_9
     21300020: bear sprite_10
-    21300022: bear sprite_11
-    21300024: bear sprite_12
-    21300026: bear sprite_13
-    21300028: bear sprite_14
-    21300030: bear sprite_15
-    21300032: bear sprite_16
-    21300034: bear sprite_17
-    21300036: bear sprite_18
-    21300038: bear sprite_19
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -128,8 +119,8 @@ TextureImporter:
       name: bear sprite_4
       rect:
         serializedVersion: 2
-        x: 1360
-        y: 783
+        x: 0
+        y: 533
         width: 340
         height: 250
       alignment: 0
@@ -141,7 +132,7 @@ TextureImporter:
       name: bear sprite_5
       rect:
         serializedVersion: 2
-        x: 0
+        x: 340
         y: 533
         width: 340
         height: 250
@@ -154,7 +145,7 @@ TextureImporter:
       name: bear sprite_6
       rect:
         serializedVersion: 2
-        x: 340
+        x: 680
         y: 533
         width: 340
         height: 250
@@ -167,8 +158,8 @@ TextureImporter:
       name: bear sprite_7
       rect:
         serializedVersion: 2
-        x: 680
-        y: 533
+        x: 0
+        y: 283
         width: 340
         height: 250
       alignment: 0
@@ -180,8 +171,8 @@ TextureImporter:
       name: bear sprite_8
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 533
+        x: 340
+        y: 283
         width: 340
         height: 250
       alignment: 0
@@ -193,8 +184,8 @@ TextureImporter:
       name: bear sprite_9
       rect:
         serializedVersion: 2
-        x: 1360
-        y: 533
+        x: 680
+        y: 283
         width: 340
         height: 250
       alignment: 0
@@ -206,125 +197,8 @@ TextureImporter:
       name: bear sprite_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 283
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_11
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 283
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_12
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 283
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_13
-      rect:
-        serializedVersion: 2
         x: 1020
         y: 283
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_14
-      rect:
-        serializedVersion: 2
-        x: 1360
-        y: 283
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 33
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_16
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 33
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_17
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 33
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_18
-      rect:
-        serializedVersion: 2
-        x: 1020
-        y: 33
-        width: 340
-        height: 250
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: bear sprite_19
-      rect:
-        serializedVersion: 2
-        x: 1360
-        y: 33
         width: 340
         height: 250
       alignment: 0

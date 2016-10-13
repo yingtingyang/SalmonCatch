@@ -4,12 +4,8 @@ using UnityEngine.SceneManagement;
 
 public class gamecontroller: MonoBehaviour
 {
-    public GameObject hazard;
-    public Vector3 spawnValues;
-    public int hazardCount;
-    public float spawnWait;
-    public float startWait;
-    public float waveWait;
+    public GameObject fish;
+    public Vector3 maxPos;
 
     public GUIText scoreHolder;
     public GUIText restartText;
@@ -18,6 +14,7 @@ public class gamecontroller: MonoBehaviour
     private bool gameOver;
     private bool restart;
     private int score;
+   
 
     void Start()
     {
@@ -27,7 +24,7 @@ public class gamecontroller: MonoBehaviour
         gameOverText.text = "";
         score = 0;
         UpdateScore();
-        StartCoroutine(SpawnWaves());
+        
     }
 
     void Update()
@@ -39,30 +36,27 @@ public class gamecontroller: MonoBehaviour
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }
-    }
-
-    IEnumerator SpawnWaves()
-    {
-        yield return new WaitForSeconds(startWait);
-        while (true)
+        if (gameOver)
         {
-            for (int i = 0; i < hazardCount; i++)
-            {
-                Vector3 spawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, spawnValues.z);
-                Quaternion spawnRotation = Quaternion.identity;
-                Instantiate(hazard, spawnPosition, spawnRotation);
-                yield return new WaitForSeconds(spawnWait);
-            }
-            yield return new WaitForSeconds(waveWait);
-
-            if (gameOver)
-            {
-                restartText.text = "Press 'R' to restart";
-                restart = true;
-                break;
-            }
+            restartText.text = "Press 'R' to restart";
+            restart = true;
+            
         }
     }
+
+
+
+    GameObject Spawn()
+    
+        
+        {
+            Instantiate(fish,
+                                      new Vector3(Random.value * maxPos.x,
+                                                  Random.value * maxPos.y,
+                                                  Random.value * maxPos.z),
+                                      Random.rotation);
+        }
+    
 
     public void AddScore(int newScoreValue)
     {

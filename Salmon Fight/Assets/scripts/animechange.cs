@@ -3,6 +3,7 @@ using System.Collections;
 
 public class animechange : MonoBehaviour {
     public Animator anim;
+    public AudioClip bearroar;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,8 @@ public class animechange : MonoBehaviour {
         if(Input.GetMouseButtonDown(0))
         {
             anim.Play("bear attack", -1, 0f);
+            GetComponent<AudioClip>();
+            
         }
        
     }

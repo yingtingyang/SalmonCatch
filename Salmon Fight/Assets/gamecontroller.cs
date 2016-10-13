@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
@@ -6,10 +7,11 @@ public class gamecontroller: MonoBehaviour
 {
     public GameObject fish;
     public Vector3 maxPos;
+    
 
-    public GUIText scoreHolder;
-    public GUIText restartText;
-    public GUIText gameOverText;
+    public Text scoreHolder;
+    public Text restartText;
+    public Text gameOverText;
 
     private bool gameOver;
     private bool restart;
@@ -46,15 +48,14 @@ public class gamecontroller: MonoBehaviour
 
 
 
-    GameObject Spawn()
+    void Spawn()
     
         
         {
-            Instantiate(fish,
-                                      new Vector3(Random.value * maxPos.x,
+            Instantiate(fish, new Vector3(Random.value * maxPos.x,
                                                   Random.value * maxPos.y,
-                                                  Random.value * maxPos.z),
-                                      Random.rotation);
+                                                  Random.value * maxPos.z), Quaternion.identity );
+        print("howdy");
         }
     
 

@@ -1,0 +1,297 @@
+fileFormatVersion: 2
+guid: a3c25c8b7c7c590459c9ab35ab4f0f44
+timeCreated: 1476355511
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear sprite left_0
+    21300002: bear sprite left_1
+    21300004: bear sprite left_2
+    21300006: bear sprite left_3
+    21300008: bear sprite left_4
+    21300010: bear sprite left_5
+    21300012: bear sprite left_6
+    21300014: bear sprite left_7
+    21300016: bear sprite left_8
+    21300018: bear sprite left_9
+    21300020: bear sprite left_10
+    21300022: bear sprite left_11
+    21300024: bear sprite left_12
+    21300026: bear sprite left_13
+    21300028: bear sprite left_14
+    21300030: bear sprite left_15
+    21300032: bear sprite left_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bear sprite left_0
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 1026
+        width: 4
+        height: 5
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_1
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 796
+        width: 301
+        height: 218
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_2
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 780
+        width: 294
+        height: 230
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_3
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 794
+        width: 307
+        height: 220
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_4
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 867
+        width: 5
+        height: 7
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_5
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 793
+        width: 311
+        height: 218
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_6
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 856
+        width: 5
+        height: 10
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_7
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 842
+        width: 4
+        height: 7
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_8
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 795
+        width: 5
+        height: 8
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_9
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 789
+        width: 4
+        height: 6
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_10
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 543
+        width: 298
+        height: 218
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_11
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 532
+        width: 299
+        height: 255
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_12
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 543
+        width: 298
+        height: 218
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_13
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 292
+        width: 298
+        height: 218
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_14
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 286
+        width: 340
+        height: 230
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_15
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 286
+        width: 335
+        height: 238
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: bear sprite left_16
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 292
+        width: 298
+        height: 218
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
